@@ -32,3 +32,27 @@ label{
 textarea{
     padding: 50px;
 }
+
+/* Width at 980px and above */
+
+@media only screen and (max-width:980px){
+    .form-input{
+        width: 80%;
+    }
+}
+
+/* Width at 768px and above */
+
+@media only screen and (max-width:768px){
+    .form-input{
+        width:50%;
+    }
+}
+
+/* Width at 640px and above */
+
+@media only screen and (max-width:640px){
+    .form-input{
+        width: 20%;
+    }
+}
